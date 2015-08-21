@@ -38,7 +38,7 @@ var MainSection = React.createClass({
     );
   },
 
-  _onToggleCompleteAll: function:() {
+  _onToggleCompleteAll: function() {
     TodoActions.toggleCompleteAll();
   }
 });
